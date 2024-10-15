@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105784101}
   - component: {fileID: 105784102}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Player2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 270077375}
   - component: {fileID: 270077378}
   - component: {fileID: 270077379}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -646,7 +646,9 @@ GameObject:
   - component: {fileID: 1031990779}
   - component: {fileID: 1031990776}
   - component: {fileID: 1031990775}
-  m_Layer: 7
+  - component: {fileID: 1031990781}
+  - component: {fileID: 1031990780}
+  m_Layer: 6
   m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,6 +762,42 @@ MonoBehaviour:
   dec: 15
   ratio: 5
   maxAngle: 15
+--- !u!114 &1031990780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031990774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc1a4dd02eae432982d59ffac331e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 1
+  y: 0
+  maxSpeed: 5
+  acc: 25
+  dec: 15
+  ratio: 5
+  maxAngle: 15
+--- !u!114 &1031990781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031990774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fbdf70b4edb494990021d8d745a65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 1
+  y: 0
+  maxSpeed: 5
+  acc: 25
+  dec: 15
 --- !u!1 &1062406194
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +810,7 @@ GameObject:
   - component: {fileID: 1062406198}
   - component: {fileID: 1062406197}
   - component: {fileID: 1062406196}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Ground (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,7 +968,9 @@ GameObject:
   - component: {fileID: 1106205656}
   - component: {fileID: 1106205653}
   - component: {fileID: 1106205652}
-  m_Layer: 7
+  - component: {fileID: 1106205658}
+  - component: {fileID: 1106205657}
+  m_Layer: 6
   m_Name: Player2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,6 +1084,42 @@ MonoBehaviour:
   dec: 15
   ratio: 5
   maxAngle: 15
+--- !u!114 &1106205657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106205651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc1a4dd02eae432982d59ffac331e01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 0
+  y: 1
+  maxSpeed: 5
+  acc: 25
+  dec: 15
+  ratio: 5
+  maxAngle: 15
+--- !u!114 &1106205658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106205651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fbdf70b4edb494990021d8d745a65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 0
+  y: 1
+  maxSpeed: 5
+  acc: 25
+  dec: 15
 --- !u!1 &1309417802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,7 +1183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lm:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   cam: {fileID: 519420031}
 --- !u!4 &1342761187
 Transform:
@@ -1136,7 +1212,7 @@ GameObject:
   - component: {fileID: 1416675574}
   - component: {fileID: 1416675573}
   - component: {fileID: 1416675572}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Ground (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1593622938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1328,7 +1404,8 @@ GameObject:
   - component: {fileID: 1703264622}
   - component: {fileID: 1703264619}
   - component: {fileID: 1703264618}
-  m_Layer: 6
+  - component: {fileID: 1703264623}
+  m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1437,12 +1514,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpableGround:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   player2:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   state: 0
   moveSpeed: 5
+  jumpForce: 7
+--- !u!114 &1703264623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703264617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2b2cb2f651f42088e98190f1e8ec75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 128
+  player2:
+    serializedVersion: 2
+    m_Bits: 64
+  state: 0
+  moveSpeed: 7
   jumpForce: 7
 --- !u!1 &1844554966
 GameObject:
@@ -1455,7 +1553,7 @@ GameObject:
   - component: {fileID: 1844554967}
   - component: {fileID: 1844554969}
   - component: {fileID: 1844554968}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: 'Player1 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1560,7 +1658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854768786}
   - component: {fileID: 1854768788}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Player2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
