@@ -643,10 +643,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1031990778}
-  - component: {fileID: 1031990779}
   - component: {fileID: 1031990776}
   - component: {fileID: 1031990775}
   - component: {fileID: 1031990781}
+  - component: {fileID: 1031990779}
   m_Layer: 6
   m_Name: Player2
   m_TagString: Untagged
@@ -945,10 +945,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1106205655}
-  - component: {fileID: 1106205656}
   - component: {fileID: 1106205653}
   - component: {fileID: 1106205652}
   - component: {fileID: 1106205658}
+  - component: {fileID: 1106205656}
   m_Layer: 6
   m_Name: Player2 (1)
   m_TagString: Untagged
